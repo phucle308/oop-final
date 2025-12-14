@@ -1,0 +1,564 @@
+1) Start the program and don't load the scheduled appointments, enter invalid option, then exit
+Starting the Appointment Manager System
+Wicked calendar created
+Would you like to load previously scheduled appointments from a file (Y/N)? n
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 8
+
+Invalid option
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 9
+
+** Exit the system **
+Would you like to save all scheduled appointments to save all scheduled appointments to a file (Y/N)? n
+Good Bye!
+
+2) Start the program and load the scheduled appointments from appointments1.csv, then 3 and enter invalid day
+Starting the Appointment Manager System
+Wicked calendar created
+Would you like to load previously scheduled appointments from a file (Y/N)? Y
+Enter appointment filename: appointments.cs
+File not found. Re-enter appointment filename: appointments.cs
+Enter appointment filename: appointments1.csv
+3 previously scheduled appointments have been loaded
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: toosday
+Appointment for toosday
+Client Name          Phone           Day        Start End   Type
+--------------------------------------------------------------------------------
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection:
+
+3) Option 3 - Print a calendar for a valid day
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: saturday
+Appointment for saturday
+Client Name          Phone           Day        Start   End     Type
+--------------------------------------------------------------------------------
+Tyler                587-123-4567    Saturday   09:00 - 10:00   Mens Coloring
+Stephanie            368-999-1111    Saturday   10:00 - 11:00   Ladies Cut
+                                     Saturday   11:00 - 12:00   Available
+                                     Saturday   12:00 - 13:00   Available
+                                     Saturday   13:00 - 14:00   Available
+                                     Saturday   14:00 - 15:00   Available
+                                     Saturday   15:00 - 16:00   Available
+                                     Saturday   16:00 - 17:00   Available
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+
+ 4) Option 1 - schedule a new appointment
+ ========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 1
+
+** Sechedule an appointment **
+What day: thursday
+Enter start hour (24 hour clock): 11
+Client Name: Steven
+Client Phone: 403-600-6000
+Appointment types
+1: Mens Cut $40, 2: Ladies Cut $60, 3: Mens Colouring $40, 4: Ladies Colouring $80
+Type of AppointmentL: 1
+OK, Steven's appointment is scheduled!
+
+5) Option 1 - schedule a new appointment in a booked spot
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 1
+
+** Sechedule an appointment **
+What day: Thursday
+Enter start hour (24 hour clock): 11
+Sorry that time slot is booked already!
+
+6) Option 1 - schedule a new appointment with invalid day as sunday or invalid hour as 8 or 25
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 1
+
+** Sechedule an appointment **
+What day: sunday
+Enter start hour (24 hour clock): 11
+Sorry that time slot is not in the weekly calendar!
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 1
+
+** Sechedule an appointment **
+What day: monday
+Enter start hour (24 hour clock): 8
+Sorry that time slot is not in the weekly calendar!
+
+7) Option 2 - Find an appointment using an existing name
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 2
+
+** Find appointment by name **
+Enter Client Name: Steven
+Appointments for Steven
+Client Name          Phone           Day        Start   End     Type
+--------------------------------------------------------------------------------
+Steven               403-600-6000    Thursday   11:00 - 12:00   Mens Cut
+
+8) Option 2 - Find an appointment using non-existing name
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 2
+
+** Find appointment by name **
+Enter Client Name: hamdy
+Appointments for hamdy
+Client Name          Phone           Day        Start   End     Type
+--------------------------------------------------------------------------------
+No appointment found.
+
+9) Option 3 - print Thursday Calendar after adding Steven
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: Thursday
+Appointment for Thursday
+Client Name          Phone           Day        Start   End     Type
+--------------------------------------------------------------------------------
+                                     Thursday   09:00 - 10:00   Available
+                                     Thursday   10:00 - 11:00   Available
+Steven               403-600-6000    Thursday   11:00 - 12:00   Mens Cut
+                                     Thursday   12:00 - 13:00   Available
+Gabriela             368-111-9999    Thursday   13:00 - 14:00   Ladies Coloring
+                                     Thursday   14:00 - 15:00   Available
+                                     Thursday   15:00 - 16:00   Available
+                                     Thursday   16:00 - 17:00   Available
+
+10) Option 5 - change steven's appointment
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 5
+
+Change an appointment for:
+What day: Thursday
+Enter start hour (24 hour clock): 11
+Enter a new day: saturday
+Enter start hour (24 hour clock): 12
+Appointment for Steven has been changed to:
+Day = Saturday
+Time = 12
+
+11) Option 3 - print calendar for thursday and saturday after changing steven's appointment
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: Thursday
+Appointment for Thursday
+Client Name          Phone           Day        Start   End     Type
+--------------------------------------------------------------------------------
+                                     Thursday   09:00 - 10:00   Available
+                                     Thursday   10:00 - 11:00   Available
+                                     Thursday   11:00 - 12:00   Available
+                                     Thursday   12:00 - 13:00   Available
+Gabriela             368-111-9999    Thursday   13:00 - 14:00   Ladies Coloring
+                                     Thursday   14:00 - 15:00   Available
+                                     Thursday   15:00 - 16:00   Available
+                                     Thursday   16:00 - 17:00   Available
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 3
+
+** Print calendar for a specific day **
+Enter day of week: saturday
+Appointment for saturday
+Client Name          Phone           Day        Start   End     Type
+--------------------------------------------------------------------------------
+Tyler                587-123-4567    Saturday   09:00 - 10:00   Mens Coloring
+Stephanie            368-999-1111    Saturday   10:00 - 11:00   Ladies Cut
+                                     Saturday   11:00 - 12:00   Available
+Steven               403-600-6000    Saturday   12:00 - 13:00   Mens Cut
+                                     Saturday   13:00 - 14:00   Available
+                                     Saturday   14:00 - 15:00   Available
+                                     Saturday   15:00 - 16:00   Available
+                                     Saturday   16:00 - 17:00   Available
+
+12) option 15 - change steven's appointment to a booked spot as saturday at 9
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 5
+
+Change an appointment for:
+What day: saturday
+Enter start hour (24 hour clock): 12
+Enter a new day: saturday
+Enter start hour (24 hour clock): 9
+The new time slot is already booked
+
+13) option 5 - change a non-booked appointment saturday at 11
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 5
+
+Change an appointment for:
+What day: Saturday
+Enter start hour (24 hour clock): 11
+That time slot isn't booked and doesn't need to be changed
+
+14) option 6 - calculate total fees for Saturday
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 6
+
+Fees calculation per day...
+What day: saturday
+Total fees for Saturday is $140
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+
+ 15) option 6 - calculate total fees for invalid day as toosday/sunday
+ ========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 6
+
+Fees calculation per day...
+What day: toosday
+toosday is invalid day or the salon is closed
+
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 6
+
+Fees calculation per day...
+What day: sunday
+sunday is invalid day or the salon is closed
+
+16) option 7 - calculate weekly fees
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 7
+Total weekly fees is $220
+
+17) option 4 - cancel steven's appointment
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 4
+
+** Cancel an appointment **
+What day: saturday
+Enter start hour (24 hour clock): 12
+Appointment: saturday 12:00 - 13:00 for Steven has been cancelled!
+
+18) option 2 - find steven's appointment
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 2
+
+** Find appointment by name **
+Enter Client Name: steven
+Appointments for steven
+Client Name          Phone           Day        Start   End     Type
+--------------------------------------------------------------------------------
+No appointment found.
+
+19) option 4 - cancel non-booked appointment as saturday at 11
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 4
+
+** Cancel an appointment **
+What day: saturday
+Enter start hour (24 hour clock): 11
+That time slot isn't booked and doesn't need to be cancelled
+
+20) option 20 - exit the system with saving the scheduled appointments in another appointments3.csv
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 9 
+
+** Exit the system **
+Would you like to save all scheduled appointments to save all scheduled appointments to a file (Y/N)? y
+Enter appointment filename: appointments1.csv
+File already exists. Do you want to overwrite it (Y/N)? n
+Enter appointment filename: appointments3.csv
+3 scheduled appointments have been successfully saved
+Good Bye!
+
+21) option 9 - exit the system without saving the scheduled appointments
+========================================
+ Hair Salon Appointment Manager
+========================================
+ 1) Schedule an appointment
+ 2) Find appointment by name
+ 3) Print calendar for a specific day
+ 4) Cancel an appointment
+ 5) Change an appointment
+ 6) Calculate total fees for a day
+ 7) Calculate total weekly fees
+ 9) Exit the system
+Enter your selection: 9
+
+** Exit the system **
+Would you like to save all scheduled appointments to save all scheduled appointments to a file (Y/N)? N
+Good Bye!
